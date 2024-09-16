@@ -1,7 +1,7 @@
 # biblioteca de texto-voz google
 from gtts import gTTS
 # biblioteca flask
-from flask import Flask,render_template,request
+from flask import Flask,render_template,request,redirect,url_for
 import os
 
 #criando o objeto flask
